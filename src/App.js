@@ -7,7 +7,8 @@ import Scrumboard from './apps/scrumboard/Scrumboard';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Scrumboard />
+      {/* <Router>
         <Switch>
           <Route exact path="/scrumboard">
             <Scrumboard />
@@ -30,7 +31,7 @@ function App() {
             </header>
           </Route>
         </Switch>
-      </Router>
+      </Router> */}
     </div>
   );
 }
